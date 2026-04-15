@@ -4,7 +4,18 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body: Center(child: Text('Hello, World!'))),
+      home: Scaffold(
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Colors.blue, Colors.purple],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+          child: Center(child: Text('Hello, World!')),
+        ),
+      ),
     ),
   );
 }
