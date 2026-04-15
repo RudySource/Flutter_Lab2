@@ -33,7 +33,7 @@
 1. **Клонировать репозиторий**
 
 ```bash
-git clone <URL_вашего_репозитория>
+git clone https://github.com/RudySource/Flutter_Lab2
 ```
 
 2. Перейти в папку проекта
